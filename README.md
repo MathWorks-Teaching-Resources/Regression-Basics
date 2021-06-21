@@ -12,7 +12,7 @@ This package contains a [live script](https://www.mathworks.com/products/matlab/
 - Explain the effect of increasing and decreasing the learning rate and number of steps for gradient descent.
 - Apply a linear regression model to perform short-term forecasting.
 
-<img src="https://www.mathworks.com/content/mathworks/www/en/academia/courseware/regression-basics/_jcr_content/mainParsys/columns_1254430605_c/2/columns_copy/1/image.adapt.full.high.gif/1620282183338.gif" height = "300"/>  
+<img src="https://user-images.githubusercontent.com/81376570/122819892-02032a80-d2a9-11eb-993b-a3069f9df662.gif" height = "300"/>  
 
 ## Suggested Prework ## 
 [MATLAB Onramp](https://www.mathworks.com/learn/tutorials/matlab-onramp.html) – a free two-hour introductory tutorial to learn the essentials of MATLAB®.  
