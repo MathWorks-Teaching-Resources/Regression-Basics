@@ -31,7 +31,7 @@ A supplementary script to download the external electricity load data from [New 
 
 ## ##
 **`regressSolnIm/`**  
-This folder includes supplementary image files containing solutions for tasks in `regressionBasics.mlx`. The main script provides controls to hide or expose the solutions when needed. Ensure that this folder is in the same location as `regressionBasics.mlx`
+This folder includes supplementary figure files containing solutions for tasks in `regressionBasics.mlx`. The main script provides controls to hide or expose the solutions when needed. Ensure that this folder is in the same location as `regressionBasics.mlx`
 
 ## ##
 **`linearData.mat`, `linearData2.mat`, `multivariateData.mat`, `nonlinearData.mat`**  
