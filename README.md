@@ -9,7 +9,7 @@ The instructions inside the live scripts will guide you through the tasks and ac
 
 **Learning Goals**
 - Explain the difference between linear, multiple linear, and nonlinear regression.
-- Use ordinary least squares to analytically solve for linear regression parameters.
+- Use ordinary least squares to solve for linear regression parameters.
 - Assess and improve the performance of a regression model using a goodness-of-fit measure.
 - Apply gradient descent to iteratively minimize a cost function and estimate model parameters.
 - Explain the effect of increasing and decreasing the learning rate and number of steps for the gradient descent algorithm.
