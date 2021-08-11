@@ -20,6 +20,8 @@ The instructions inside the live scripts will guide you through the tasks and ac
 ## Suggested Prework ##  
 [MATLAB Onramp](https://www.mathworks.com/learn/tutorials/matlab-onramp.html) – a free two-hour introductory tutorial to learn the essentials of MATLAB®.  
 
+This module assumes a basic knowledge of algebra and multivariable calculus.  
+
 ## Details ##
 
 **`regressionBasics.mlx`**  
