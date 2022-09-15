@@ -1,4 +1,6 @@
-# Regression Basics[![View Regression Basics on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/93435-regression-basics)  or [Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj)
+# Regression Basics
+[![View Regression Basics on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/93435-regression-basics)
+ or [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj)
 
 **Curriculum Module**  
 _Created with R2020a. Compatible with R2020a and later releases._  
@@ -23,11 +25,11 @@ The instructions inside the live scripts will guide you through the tasks and ac
 
 ## Details ##
 
-**`regressionBasics.mlx`**  [Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=regressionBasics.mlx)
+**`regressionBasics.mlx`**  [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=regressionBasics.mlx)
 An interactive lesson that introduces the fundamentals of regression analysis. Students apply a basic linear regression to model real-world electricity load data.
 
 ## ##
-**`electricityLoadData.mlx`** [Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=electricityLoadData.mlx)
+**`electricityLoadData.mlx`** [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=electricityLoadData.mlx)
 A supplementary script to download the external electricity load data from [New York ISO](http://mis.nyiso.com/public/) for use in the practice problem.  
 
 ## ##
@@ -39,7 +41,7 @@ This folder includes supplementary image files containing solutions for tasks in
 Data files containing some sample data for the different types of regression problems.
 
 ## Products ##
-MATLAB, Statistics and Machine Learning Toolbox™
+MATLAB&reg;, Statistics and Machine Learning Toolbox&trade;
 
 ## License ##
 The license for this module is available in the LICENSE.TXT file in this GitHub repository.
