@@ -21,7 +21,7 @@ The instructions inside the live scripts will guide you through the tasks and ac
 <img src="https://user-images.githubusercontent.com/81376570/122819892-02032a80-d2a9-11eb-993b-a3069f9df662.gif" height = "300"/>  
 
 ## Suggested Prework ##  
-[MATLAB Onramp](https://www.mathworks.com/learn/tutorials/matlab-onramp.html) – a free two-hour introductory tutorial to learn the essentials of MATLAB®.  
+[MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted) – a free two-hour introductory tutorial to learn the essentials of MATLAB®.  
 
 ## Details ##
 
