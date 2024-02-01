@@ -88,6 +88,7 @@ classdef SmokeTests < matlab.unittest.TestCase
                     case 'MATLAB:catenate:dimensionMismatch'
                         
                     otherwise
+                        disp(ME.identifier)
                         testCase.verifyTrue(false,ME.message);
                 end
             end
