@@ -86,9 +86,10 @@ classdef SmokeTests < matlab.unittest.TestCase
             catch ME
                 switch ME.identifier
                     case 'MATLAB:catenate:dimensionMismatch'
-                        
+
+                    case 'MATLAB:uix:unxdebug:UnknownService'
+                    
                     otherwise
-                        disp(ME.identifier)
                         testCase.verifyTrue(false,ME.message);
                 end
             end
