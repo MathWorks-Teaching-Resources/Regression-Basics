@@ -65,14 +65,14 @@ MATLABÂ® is used throughout. Tools from Statistics and Machine Learning Toolboxâ
 ## [**Machine Learning for Regression**](https://www.mathworks.com/matlabcentral/fileexchange/95903-machine-learning-for-regression)
 |      |      |
 | :-- | :-- |
-| <img src="Images/image_4.png" width="171" alt="image_4.png"> <br>  | **Available on:** <br> | [<img src="Images/image_5.png" width="129" alt="image_5.png">](https://www.mathworks.com/matlabcentral/fileexchange/95903-machine-learning-for-regression) <br> [<img src="Images/image_6.png" width="130" alt="image_6.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Machine-Learning-for-Regression&project=MLforRegression.prj) <br> [GitHub](https://github.com/MathWorks-Teaching-Resources/Machine-Learning-for-Regression) <br>   |
+| <img src="Images/image_4.png" width="171" alt="image_4.png"> <br>  | **Available on:** <br> [<img src="Images/image_5.png" width="129" alt="image_5.png">](https://www.mathworks.com/matlabcentral/fileexchange/95903-machine-learning-for-regression) <br> [<img src="Images/image_6.png" width="130" alt="image_6.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Machine-Learning-for-Regression&project=MLforRegression.prj) <br> [GitHub](https://github.com/MathWorks-Teaching-Resources/Machine-Learning-for-Regression) <br>   |
 |      |       |
 
 
 ## [**Machine Learning Methods: Clustering**](https://www.mathworks.com/matlabcentral/fileexchange/135381-machine-learning-methods-clustering)
 |      |      |
 | :-- | :-- |
-| <img src="Images/image_7.png" width="171" alt="image_7.png"> <br>  | **Available on:** <br> | [<img src="Images/image_8.png" width="129" alt="image_8.png">](https://www.mathworks.com/matlabcentral/fileexchange/135381-machine-learning-methods-clustering) <br> [<img src="Images/image_9.png" width="130" alt="image_9.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Machine-Learning-Methods-Clustering&project=MLMethodsClustering.prj) <br> [GitHub](https://github.com/MathWorks-Teaching-Resources/Machine-Learning-Methods-Clustering) <br>   |
+| <img src="Images/image_7.png" width="171" alt="image_7.png"> <br>  | **Available on:** <br> [<img src="Images/image_8.png" width="129" alt="image_8.png">](https://www.mathworks.com/matlabcentral/fileexchange/135381-machine-learning-methods-clustering) <br> [<img src="Images/image_9.png" width="130" alt="image_9.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Machine-Learning-Methods-Clustering&project=MLMethodsClustering.prj) <br> [GitHub](https://github.com/MathWorks-Teaching-Resources/Machine-Learning-Methods-Clustering) <br>   |
 |      |       |
 
 
