@@ -24,7 +24,7 @@ The instructions inside the live script will guide you through the exercises and
 
 ## Contact Us
 
-Solutions are available upon instructor request. Contact the [MathWorks teaching resources team](mailto:onlineteaching@mathworks.com) if you would like to request solutions, provide feedback, or if you have a question.
+Contact the [MathWorks Educator Content Development Team](mailto:onlineteaching@mathworks.com) if you would like to provide feedback, or if you have a question.
 
 
 ## Prerequisites
@@ -53,12 +53,10 @@ MATLAB® is used throughout. Tools from Statistics and Machine Learning Toolbox�
 
 # Scripts
 
- *If you are viewing this in a version of MATLAB prior to R2023b, you can view the learning outcomes for each script* [*here*](https://www.mathworks.com/matlabcentral/fileexchange/93435-regression-basics)
-
 ## [**RegressionBasics.mlx**](Scripts/RegressionBasics.mlx)
 |      |      |
 | :-- | :-- |
-| <img src="Images/image_3.png" width="171" alt="image_3.png"> <br>  | **In this script, students will...** <br> $\bullet$ Use least squares to solve for linear regression paramaters <br> $\bullet$ Use a goodness\-of\-fit measure to assess model performance <br> $\bullet$ Apply a basic linear regression to model real\-world electricity load data <br>   |
+| <img src="Images/image_3.png" width="171" alt="image_3.png"> <br>  | **In this script, students will...** <br> $\bullet$ use least squares to solve for linear regression paramaters. <br> $\bullet$ use a goodness\-of\-fit measure to assess model performance. <br> $\bullet$ apply a basic linear regression to model real\-world electricity load data. <br>   |
 |      |       |
 
 # Related Courseware Modules
@@ -83,9 +81,9 @@ Or feel free to explore our other [modular courseware content](https://www.mathw
 
 # Contribute 
 
-Looking for more? Find an issue? Have a suggestion? Please contact the [MathWorks teaching resources team](mailto:%20onlineteaching@mathworks.com). If you want to contribute directly to this project, you can find information about how to do so in the [CONTRIBUTING.md](https://github.com/MathWorks-Teaching-Resources/Regression-Basics/blob/release/CONTRIBUTING.md) page on GitHub.
+Looking for more? Find an issue? Have a suggestion? Please contact the [MathWorks Educator Content Development Team](mailto:%20onlineteaching@mathworks.com). If you want to contribute directly to this project, you can find information about how to do so in the [CONTRIBUTING.md](https://github.com/MathWorks-Teaching-Resources/Regression-Basics/blob/release/CONTRIBUTING.md) page on GitHub.
 
 
- *©* Copyright 2023 The MathWorks™, Inc
+ *©* Copyright 2025 The MathWorks, Inc
 
 
