@@ -64,7 +64,7 @@ MATLABÂ® is used throughout. Tools from Statistics and Machine Learning Toolboxâ
 ## [**Linear Regression**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/regression-basics&project=RegressionBasics.prj&file=Scripts/LinearRegression.mlx)
 ||||
 | :-- | :-- | :-- |
-| <img src="Images/image_3.png" width="164" alt="image_3.png"> <br>  | **In this script, students will...** <br> $\bullet$ explain and apply simple linear regression models. <br> $\bullet$ evaluate and interpret regression results using residuals and model coefficients. <br> $\bullet$ build multiple linear regression models and assess model fit using visual and analytical methods. <br>  | **Academic disciplines** <br> $\bullet$ Math <br> $\bullet$ Statistics <br> $\bullet$ Data Science <br> $\bullet$ Biomedical Devlces <br> $\bullet$ Machine Learning <br>   |
+| <img src="Images/image_3.png" width="164" alt="image_3.png"> <br>  | **In this script, students will...** <br> $\bullet$ explain and apply simple linear regression models. <br> $\bullet$ evaluate and interpret regression results using residuals and model coefficients. <br> $\bullet$ build multiple linear regression models and assess model fit using visual and analytical methods. <br>  | **Academic disciplines** <br> $\bullet$ Math <br> $\bullet$ Statistics <br> $\bullet$ Data Science <br> $\bullet$ Biomedical Devices <br> $\bullet$ Machine Learning <br>   |
 
 <a id="TMP_9421"></a>
 
