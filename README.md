@@ -78,7 +78,7 @@ MATLABÂ® is used throughout. Tools from Statistics and Machine Learning Toolboxâ
 ## [**Multiple Regression**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/regression-basics&project=RegressionBasics.prj&file=Scripts/MultipleRegression.mlx)
 ||||
 | :-- | :-- | :-- |
-| <img src="Images/image_5.png" width="184" alt="image_5.png"> <br>  | **In this script, students will...** <br> $\bullet$ explain the purpose of optimization in improving regression model accuracy. <br> $\bullet$ use cost functions to evaluate and compare model performance. <br> $\bullet$ apply gradient descent to optimize parameters and assess model behavior using data. <br>  | **Academic disciplines** <br> $\bullet$ Math <br> $\bullet$ Statistics <br> $\bullet$ Data Science <br> $\bullet$ Machine Learning <br> $\bullet$ Chemical Engineering <br> $\bullet$ Electrical Engineering <br>   |
+| <img src="Images/image_5.png" width="184" alt="image_5.png"> <br>  | **In this script, students will...** <br> $\bullet$ explain multiple linear regression and identify response and predictor variables.<br> $\bullet$ check linearity assumptions using scatterplots and residual diagnostics. <br> $\bullet$  fit and use a multiple regression model to interpret coefficients and make predictions. <br>  | **Academic disciplines** <br> $\bullet$ Math <br> $\bullet$ Statistics <br> $\bullet$ Data Science <br> $\bullet$ Machine Learning <br> $\bullet$ Chemical Engineering <br> $\bullet$ Electrical Engineering <br>   |
 
 # Related Courseware Modules
 <a id="H_61EB2540"></a>
