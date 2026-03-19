@@ -68,7 +68,7 @@ MATLAB® is used throughout. Tools from Statistics and Machine Learning Toolbox�
 
 <a id="TMP_9421"></a>
 
-## [ **Curvilinear** Regression](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/regression-basics&project=RegressionBasics.prj&file=Scripts/CurvilinearRegression.mlx)
+## [ **Curvilinear Regression**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/regression-basics&project=RegressionBasics.prj&file=Scripts/CurvilinearRegression.mlx)
 ||||
 | :-- | :-- | :-- |
 | <img src="Images/image_4.svg" width="184" alt="image_4.svg"> <br>  | **In this script, students will...** <br> $\bullet$ explain curvilinear regression and when to use it. <br> $\bullet$ distinguish and apply polynomial and linearizable nonlinear models. <br> $\bullet$ explain curvilinear regression and identify contexts where it is most suitable. <br>  | **Academic disciplines** <br> $\bullet$ Math <br> $\bullet$ Statistics <br> $\bullet$ Data Science <br> $\bullet$ Machine Learning <br> $\bullet$ Electrochemistry/Chemical Engineering <br> $\bullet$ Electrical Engineering <br>   |
@@ -106,4 +106,4 @@ Or feel free to explore our other [modular courseware content](https://www.mathw
 
 Looking for more? Find an issue? Have a suggestion? Please contact the [MathWorks Educator Content Development Team](mailto:%20onlineteaching@mathworks.com). If you want to contribute directly to this project, you can find information about how to do so in the [CONTRIBUTING.md](https://github.com/MathWorks-Teaching-Resources/Regression-Basics/blob/release/CONTRIBUTING.md) page on GitHub.
 
- *©* Copyright 2025 The MathWorks, Inc
+ *©* Copyright 2026 The MathWorks, Inc
