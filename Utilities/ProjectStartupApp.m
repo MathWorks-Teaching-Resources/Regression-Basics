@@ -5,26 +5,27 @@ classdef ProjectStartupApp < matlab.apps.AppBase
         StartUpAppUIFigure  matlab.ui.Figure
         FeedBackPanel       matlab.ui.container.Panel
         FeedBackGrid        matlab.ui.container.GridLayout
-        Q1                  matlab.ui.control.Label
-        FacultyButton       matlab.ui.control.Button
-        StudentButton       matlab.ui.control.Button
-        OtherButton         matlab.ui.control.Button
-        ReviewText          matlab.ui.control.Label
         ReviewTitle         matlab.ui.control.Label
+        ReviewText          matlab.ui.control.Label
+        OtherButton         matlab.ui.control.Button
+        StudentButton       matlab.ui.control.Button
+        FacultyButton       matlab.ui.control.Button
+        Q1                  matlab.ui.control.Label
         WelcomePanel        matlab.ui.container.Panel
         WelcomeGrid         matlab.ui.container.GridLayout
-        MainMenuButton      matlab.ui.control.Button
-        READMEButton        matlab.ui.control.Button
-        ReviewUsButton      matlab.ui.control.Button
-        CoverImage          matlab.ui.control.Image
         WelcomeTitle        matlab.ui.control.Label
+        CoverImage          matlab.ui.control.Image
+        ReviewUsButton      matlab.ui.control.Button
+        READMEButton        matlab.ui.control.Button
+        MainMenuButton      matlab.ui.control.Button
     end
 
     % Properties to be modified
     properties (Access = private)
         GitHubOrganization = "MathWorks-Teaching-Resources"; % Description
-        GitHubRepository = "XXXX";
-        ImagePath {mustBeFile} = fullfile("Images","image_3.png"); 
+        GitHubRepository = "Regression-Basics";
+        ImagePath = fullfile("Images","MultipleRegressionSurface222x174.gif");
+        
     end
 
     properties (Access = private)
@@ -182,30 +183,13 @@ classdef ProjectStartupApp < matlab.apps.AppBase
             app.WelcomeGrid.ColumnWidth = {'1x', '8x', '1x'};
             app.WelcomeGrid.RowHeight = {'2x', '5x', '1x', '1x', '1x'};
 
-            % Create WelcomeTitle
-            app.WelcomeTitle = uilabel(app.WelcomeGrid);
-            app.WelcomeTitle.HorizontalAlignment = 'center';
-            app.WelcomeTitle.VerticalAlignment = 'top';
-            app.WelcomeTitle.WordWrap = 'on';
-            app.WelcomeTitle.FontSize = 24;
-            app.WelcomeTitle.FontWeight = 'bold';
-            app.WelcomeTitle.Layout.Row = 1;
-            app.WelcomeTitle.Layout.Column = [1 3];
-            app.WelcomeTitle.Text = '';
-
-            % Create CoverImage
-            app.CoverImage = uiimage(app.WelcomeGrid);
-            app.CoverImage.Layout.Row = 2;
-            app.CoverImage.Layout.Column = [1 3];
-            app.CoverImage.ImageSource = 'image_3.png';
-
-            % Create ReviewUsButton
-            app.ReviewUsButton = uibutton(app.WelcomeGrid, 'push');
-            app.ReviewUsButton.ButtonPushedFcn = createCallbackFcn(app, @ReviewUsButtonPushed, true);
-            app.ReviewUsButton.FontSize = 18;
-            app.ReviewUsButton.Layout.Row = 5;
-            app.ReviewUsButton.Layout.Column = 2;
-            app.ReviewUsButton.Text = 'Review Us';
+            % Create MainMenuButton
+            app.MainMenuButton = uibutton(app.WelcomeGrid, 'push');
+            app.MainMenuButton.ButtonPushedFcn = createCallbackFcn(app, @MainMenuButtonPushed, true);
+            app.MainMenuButton.FontSize = 18;
+            app.MainMenuButton.Layout.Row = 3;
+            app.MainMenuButton.Layout.Column = 2;
+            app.MainMenuButton.Text = 'Main Menu';
 
             % Create READMEButton
             app.READMEButton = uibutton(app.WelcomeGrid, 'push');
@@ -215,13 +199,30 @@ classdef ProjectStartupApp < matlab.apps.AppBase
             app.READMEButton.Layout.Column = 2;
             app.READMEButton.Text = 'README';
 
-            % Create MainMenuButton
-            app.MainMenuButton = uibutton(app.WelcomeGrid, 'push');
-            app.MainMenuButton.ButtonPushedFcn = createCallbackFcn(app, @MainMenuButtonPushed, true);
-            app.MainMenuButton.FontSize = 18;
-            app.MainMenuButton.Layout.Row = 3;
-            app.MainMenuButton.Layout.Column = 2;
-            app.MainMenuButton.Text = 'Main Menu';
+            % Create ReviewUsButton
+            app.ReviewUsButton = uibutton(app.WelcomeGrid, 'push');
+            app.ReviewUsButton.ButtonPushedFcn = createCallbackFcn(app, @ReviewUsButtonPushed, true);
+            app.ReviewUsButton.FontSize = 18;
+            app.ReviewUsButton.Layout.Row = 5;
+            app.ReviewUsButton.Layout.Column = 2;
+            app.ReviewUsButton.Text = 'Review Us';
+
+            % Create CoverImage
+            app.CoverImage = uiimage(app.WelcomeGrid);
+            app.CoverImage.Layout.Row = 2;
+            app.CoverImage.Layout.Column = [1 3];
+            app.CoverImage.ImageSource = 'MultipleRegressionSurface222x174.gif';
+
+            % Create WelcomeTitle
+            app.WelcomeTitle = uilabel(app.WelcomeGrid);
+            app.WelcomeTitle.HorizontalAlignment = 'center';
+            app.WelcomeTitle.VerticalAlignment = 'top';
+            app.WelcomeTitle.WordWrap = 'on';
+            app.WelcomeTitle.FontSize = 24;
+            app.WelcomeTitle.FontWeight = 'bold';
+            app.WelcomeTitle.Layout.Row = 1;
+            app.WelcomeTitle.Layout.Column = [1 3];
+            app.WelcomeTitle.Text = 'Welcome to Regression Basics';
 
             % Create FeedBackPanel
             app.FeedBackPanel = uipanel(app.StartUpAppUIFigure);
@@ -233,16 +234,39 @@ classdef ProjectStartupApp < matlab.apps.AppBase
             app.FeedBackGrid.ColumnWidth = {'1x', '8x', '1x'};
             app.FeedBackGrid.RowHeight = {'2x', '3x', '2x', '1x', '1x', '1x'};
 
-            % Create ReviewTitle
-            app.ReviewTitle = uilabel(app.FeedBackGrid);
-            app.ReviewTitle.HorizontalAlignment = 'center';
-            app.ReviewTitle.VerticalAlignment = 'top';
-            app.ReviewTitle.WordWrap = 'on';
-            app.ReviewTitle.FontSize = 24;
-            app.ReviewTitle.FontWeight = 'bold';
-            app.ReviewTitle.Layout.Row = 1;
-            app.ReviewTitle.Layout.Column = [1 3];
-            app.ReviewTitle.Text = '';
+            % Create Q1
+            app.Q1 = uilabel(app.FeedBackGrid);
+            app.Q1.HorizontalAlignment = 'center';
+            app.Q1.WordWrap = 'on';
+            app.Q1.FontSize = 18;
+            app.Q1.FontWeight = 'bold';
+            app.Q1.Layout.Row = 3;
+            app.Q1.Layout.Column = [1 3];
+            app.Q1.Text = 'What describes you best?';
+
+            % Create FacultyButton
+            app.FacultyButton = uibutton(app.FeedBackGrid, 'push');
+            app.FacultyButton.ButtonPushedFcn = createCallbackFcn(app, @FacultyButtonPushed, true);
+            app.FacultyButton.FontSize = 18;
+            app.FacultyButton.Layout.Row = 4;
+            app.FacultyButton.Layout.Column = 2;
+            app.FacultyButton.Text = 'Faculty';
+
+            % Create StudentButton
+            app.StudentButton = uibutton(app.FeedBackGrid, 'push');
+            app.StudentButton.ButtonPushedFcn = createCallbackFcn(app, @StudentButtonPushed, true);
+            app.StudentButton.FontSize = 18;
+            app.StudentButton.Layout.Row = 5;
+            app.StudentButton.Layout.Column = 2;
+            app.StudentButton.Text = 'Student';
+
+            % Create OtherButton
+            app.OtherButton = uibutton(app.FeedBackGrid, 'push');
+            app.OtherButton.ButtonPushedFcn = createCallbackFcn(app, @OtherButtonPushed, true);
+            app.OtherButton.FontSize = 18;
+            app.OtherButton.Layout.Row = 6;
+            app.OtherButton.Layout.Column = 2;
+            app.OtherButton.Text = 'Other';
 
             % Create ReviewText
             app.ReviewText = uilabel(app.FeedBackGrid);
@@ -253,39 +277,16 @@ classdef ProjectStartupApp < matlab.apps.AppBase
             app.ReviewText.Layout.Column = [1 3];
             app.ReviewText.Text = 'Please help us improve your experience by answering a few questions.';
 
-            % Create OtherButton
-            app.OtherButton = uibutton(app.FeedBackGrid, 'push');
-            app.OtherButton.ButtonPushedFcn = createCallbackFcn(app, @OtherButtonPushed, true);
-            app.OtherButton.FontSize = 18;
-            app.OtherButton.Layout.Row = 6;
-            app.OtherButton.Layout.Column = 2;
-            app.OtherButton.Text = 'Other';
-
-            % Create StudentButton
-            app.StudentButton = uibutton(app.FeedBackGrid, 'push');
-            app.StudentButton.ButtonPushedFcn = createCallbackFcn(app, @StudentButtonPushed, true);
-            app.StudentButton.FontSize = 18;
-            app.StudentButton.Layout.Row = 5;
-            app.StudentButton.Layout.Column = 2;
-            app.StudentButton.Text = 'Student';
-
-            % Create FacultyButton
-            app.FacultyButton = uibutton(app.FeedBackGrid, 'push');
-            app.FacultyButton.ButtonPushedFcn = createCallbackFcn(app, @FacultyButtonPushed, true);
-            app.FacultyButton.FontSize = 18;
-            app.FacultyButton.Layout.Row = 4;
-            app.FacultyButton.Layout.Column = 2;
-            app.FacultyButton.Text = 'Faculty';
-
-            % Create Q1
-            app.Q1 = uilabel(app.FeedBackGrid);
-            app.Q1.HorizontalAlignment = 'center';
-            app.Q1.WordWrap = 'on';
-            app.Q1.FontSize = 18;
-            app.Q1.FontWeight = 'bold';
-            app.Q1.Layout.Row = 3;
-            app.Q1.Layout.Column = [1 3];
-            app.Q1.Text = 'What describes you best?';
+            % Create ReviewTitle
+            app.ReviewTitle = uilabel(app.FeedBackGrid);
+            app.ReviewTitle.HorizontalAlignment = 'center';
+            app.ReviewTitle.VerticalAlignment = 'top';
+            app.ReviewTitle.WordWrap = 'on';
+            app.ReviewTitle.FontSize = 24;
+            app.ReviewTitle.FontWeight = 'bold';
+            app.ReviewTitle.Layout.Row = 1;
+            app.ReviewTitle.Layout.Column = [1 3];
+            app.ReviewTitle.Text = '';
 
             % Show the figure after all components are created
             app.StartUpAppUIFigure.Visible = 'on';
