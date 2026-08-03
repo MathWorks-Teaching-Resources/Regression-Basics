@@ -40,13 +40,13 @@ This module assumes knowledge of plotting and working with linear data, basic pr
 
 ### Accessing the Module
 
-### **On MATLAB® Online™:**
+### **On MATLAB® Online**™:
 
 Use the [<img src="Images/image_1.png" width="136" alt="image_1.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj) link to download the module. You will be prompted to log in or create a MathWorks account. The project will be loaded, and you will see an app with several navigation options to get you started.
 
 ### **On Desktop:**
 
-Download or clone this repository. Open MATLAB, navigate to the folder containing these scripts and double\-click on [RegressionBasics.prj](matlab:open('matlab:open('RegressionBasics.prj')')). It will add the appropriate files to your MATLAB path and open an app that asks you where you would like to start. 
+Download or clone this repository. Open MATLAB, navigate to the folder containing these scripts and double\-click on [RegressionBasics.prj](./RegressionBasics.prj). It will add the appropriate files to your MATLAB path and open an app that asks you where you would like to start. 
 
 Ensure you have all the required products ([listed below](#H_E850B4FF)) installed. If you need to include a product, add it using the Add\-On Explorer. To install an add\-on, go to the **Home** tab and select  <img src="Images/image_2.png" width="16" alt="image_2.png"> **Add-Ons** > **Get Add-Ons**. 
 
@@ -54,11 +54,8 @@ Ensure you have all the required products ([listed below](#H_E850B4FF)) installe
 
 ## Products
 
-MATLAB® is used throughout. Tools from Statistics and Machine Learning Toolbox™, Curve Fitting Toolbox™, and Symbolic Math Toolbox™. are used frequently as well.
+MATLAB® is used throughout. Tools from Statistics and Machine Learning Toolbox™, Curve Fitting Toolbox™, and Symbolic Math Toolbox™ are used frequently as well.
 
-<a id="H_E8C62B23"></a>
-
-# Scripts
 <a id="TMP_9580"></a>
 
 ## [Linear Regression](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=Scripts/LinearRegression.mlx) and [Practice Linear](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=Scripts/TryRegression.mlx)
@@ -71,14 +68,14 @@ MATLAB® is used throughout. Tools from Statistics and Machine Learning Toolbox�
 ## [Curvilinear Regression](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=Scripts/CurvilinearRegression.mlx) and [Practice Polynomial](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=Scripts/TryCurvilinearPolynomial.mlx) and [Practice Linearizable Nonlinear](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=Scripts/TryCurvilinear.mlx)
 ||||
 | :-- | :-- | :-- |
-| <img src="Images/image_4.svg" width="184" alt="image_4.svg"> <br>  | **In this script, students will...** <br> $\bullet$ explain curvilinear regression and when to use it. <br> $\bullet$ distinguish and apply polynomial and linearizable nonlinear models. <br> $\bullet$ explain curvilinear regression and identify contexts where it is most suitable. <br>  | **Academic disciplines** <br> $\bullet$ Math <br> $\bullet$ Statistics <br> $\bullet$ Data Science <br> $\bullet$ Machine Learning <br> $\bullet$ Electrochemistry/Chemical Engineering <br> $\bullet$ Electrical Engineering <br>   |
+| <img src="Images/image_4.svg" width="145" alt="image_4.svg"> <br>  | **In this script, students will...** <br> $\bullet$ explain curvilinear regression and when to use it. <br> $\bullet$ distinguish and apply polynomial and linearizable nonlinear models. <br> $\bullet$ explain curvilinear regression and identify contexts where it is most suitable. <br>  | **Academic disciplines** <br> $\bullet$ Math <br> $\bullet$ Statistics <br> $\bullet$ Data Science <br> $\bullet$ Machine Learning <br> $\bullet$ Electrochemistry/Chemical Engineering <br> $\bullet$ Electrical Engineering <br>   |
 
 <a id="TMP_95da"></a>
 
 ## [Multiple Regression](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=Scripts/MultipleRegression.mlx) and [Practice Multiple](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=Scripts/TryMultiple.mlx)
 ||||
 | :-- | :-- | :-- |
-| <img src="Images/image_5.png" width="184" alt="image_5.png"> <br>  | **In this script, students will...** <br> $\bullet$ explain multiple linear regression and identify response and predictor variables. <br> $\bullet$ check linearity assumptions using scatterplots and residual diagnostics. <br> $\bullet$ fit and use a multiple regression model to interpret coefficients and make predictions. <br>  | **Academic disciplines** <br> $\bullet$ Math <br> $\bullet$ Statistics <br> $\bullet$ Data Science <br> $\bullet$ Machine Learning <br> $\bullet$ Chemical Engineering <br> $\bullet$ Electrical Engineering <br>   |
+| <img src="Images/image_5.png" width="145" alt="image_5.png"> <br>  | **In this script, students will...** <br> $\bullet$ explain multiple linear regression and identify response and predictor variables. <br> $\bullet$ check linearity assumptions using scatterplots and residual diagnostics. <br> $\bullet$ fit and use a multiple regression model to interpret coefficients and make predictions. <br>  | **Academic disciplines** <br> $\bullet$ Math <br> $\bullet$ Statistics <br> $\bullet$ Data Science <br> $\bullet$ Machine Learning <br> $\bullet$ Chemical Engineering <br> $\bullet$ Electrical Engineering <br>   |
 
 # Related Courseware Modules
 <a id="H_61EB2540"></a>
