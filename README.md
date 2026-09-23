@@ -10,7 +10,7 @@
 
 **Curriculum Module**
 
-_Created with R2026b. Compatible with R2026b and later releases._
+_Created with R2026a. Compatible with R2026a and later releases._
 
 # Information
 
