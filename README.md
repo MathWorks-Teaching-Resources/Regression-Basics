@@ -4,13 +4,13 @@
 <a id="H_053613DF"></a>
 
 
-[![View on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/93435-regression-basics) or [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=README.mlx)
+[![View on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/93435-regression-basics) [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=README.m)
 
 [![MATLAB Versions Tested](https://img.shields.io/endpoint?url=https://mathworks-teaching-resources.github.io/Regression-Basics/TestedWith.json)](https://mathworks-teaching-resources.github.io/Regression-Basics)
 
 **Curriculum Module**
 
-_Created with R2026a. Compatible with R2026a and later releases._
+_Created with R2020a. Compatible with R2020a and later releases._
 
 # Information
 
@@ -23,6 +23,10 @@ This curriculum module contains an interactive [MATLAB® live script](https://ww
 You can use this live script as a demonstration in lectures, a class activity, or an interactive assignment outside class. This module covers topics including simple regression, multiple regression, and curvilinear regression applied to engineering topics.
 
 The instructions inside the live script will guide you through the exercises and activities. Get started with the live script by running it one section at a time. To stop running the script or a section midway (for example, when an animation is in progress), use the <img src="Images/image_0.png" width="19" alt="image_0.png"> Stop button in the **RUN** section of the **Live Editor** tab in the MATLAB Toolstrip.
+
+## MATLAB Compatibility
+
+For MATLAB R2024b or older, download the [legacy MLX version](https://github.com/MathWorks-Teaching-Resources/Regression-Basics/releases/tag/mlx). Current live scripts use the plain\-text format introduced in R2025a.
 
 ## Contact Us
 
@@ -56,23 +60,17 @@ Ensure you have all the required products ([listed below](#H_E850B4FF)) installe
 
 MATLAB® is used throughout. Tools from Statistics and Machine Learning Toolbox™, Curve Fitting Toolbox™, and Symbolic Math Toolbox™ are used frequently as well.
 
-<a id="TMP_9580"></a>
-
-## [Linear Regression](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=Scripts/LinearRegression.mlx) and [Practice Linear](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=Scripts/TryRegression.mlx)
+## [Linear Regression](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=Scripts/LinearRegression.m) and [Practice Linear](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=Scripts/TryRegression.m)
 ||||
 | :-- | :-- | :-- |
 | <img src="Images/image_3.png" width="164" alt="image_3.png"> <br>  | **In this script, students will...** <br> $\bullet$ explain and apply simple linear regression models. <br> $\bullet$ evaluate and interpret regression results using residuals and model coefficients. <br> $\bullet$ build multiple linear regression models and assess model fit using visual and analytical methods. <br>  | **Academic disciplines** <br> $\bullet$ Math <br> $\bullet$ Statistics <br> $\bullet$ Data Science <br> $\bullet$ Biomedical Devices <br> $\bullet$ Machine Learning <br>   |
 
-<a id="TMP_3786"></a>
-
-## [Curvilinear Regression](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=Scripts/CurvilinearRegression.mlx) and [Practice Polynomial](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=Scripts/TryCurvilinearPolynomial.mlx) and [Practice Linearizable Nonlinear](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=Scripts/TryCurvilinear.mlx)
+## [Curvilinear Regression](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=Scripts/CurvilinearRegression.m) and [Practice Polynomial](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=Scripts/TryCurvilinearPolynomial.m) and [Practice Linearizable Nonlinear](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=Scripts/TryCurvilinear.m)
 ||||
 | :-- | :-- | :-- |
 | <img src="Images/image_4.svg" width="145" alt="image_4.svg"> <br>  | **In this script, students will...** <br> $\bullet$ explain curvilinear regression and when to use it. <br> $\bullet$ distinguish and apply polynomial and linearizable nonlinear models. <br> $\bullet$ explain curvilinear regression and identify contexts where it is most suitable. <br>  | **Academic disciplines** <br> $\bullet$ Math <br> $\bullet$ Statistics <br> $\bullet$ Data Science <br> $\bullet$ Machine Learning <br> $\bullet$ Electrochemistry/Chemical Engineering <br> $\bullet$ Electrical Engineering <br>   |
 
-<a id="TMP_95da"></a>
-
-## [Multiple Regression](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=Scripts/MultipleRegression.mlx) and [Practice Multiple](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=Scripts/TryMultiple.mlx)
+## [Multiple Regression](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=Scripts/MultipleRegression.m) and [Practice Multiple](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Regression-Basics&project=RegressionBasics.prj&file=Scripts/TryMultiple.m)
 ||||
 | :-- | :-- | :-- |
 | <img src="Images/image_5.png" width="145" alt="image_5.png"> <br>  | **In this script, students will...** <br> $\bullet$ explain multiple linear regression and identify response and predictor variables. <br> $\bullet$ check linearity assumptions using scatterplots and residual diagnostics. <br> $\bullet$ fit and use a multiple regression model to interpret coefficients and make predictions. <br>  | **Academic disciplines** <br> $\bullet$ Math <br> $\bullet$ Statistics <br> $\bullet$ Data Science <br> $\bullet$ Machine Learning <br> $\bullet$ Chemical Engineering <br> $\bullet$ Electrical Engineering <br>   |
@@ -83,7 +81,7 @@ MATLAB® is used throughout. Tools from Statistics and Machine Learning Toolbox�
 ## [Machine Learning for Regression](https://www.mathworks.com/matlabcentral/fileexchange/95903-machine-learning-for-regression)
 |||
 | :-- | :-- |
-| <img src="Images/image_6.png" width="171" alt="image_6.png"> <br>  | **Available on:** <br> [<img src="Images/image_7.png" width="129" alt="image_7.png">](https://www.mathworks.com/matlabcentral/fileexchange/95903-machine-learning-for-regression)[<img src="Images/image_8.png" width="130" alt="image_8.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Machine-Learning-for-Regression&project=MLforRegression.prj) <br> [GitHub](https://github.com/MathWorks-Teaching-Resources/Machine-Learning-for-Regression) <br>   |
+| <img src="Images/image_6.png" width="120" alt="image_6.png"> <br>  | **Available on:** <br> [<img src="Images/image_7.png" width="129" alt="image_7.png">](https://www.mathworks.com/matlabcentral/fileexchange/95903-machine-learning-for-regression)[<img src="Images/image_8.png" width="130" alt="image_8.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Machine-Learning-for-Regression&project=MLforRegression.prj) <br> [GitHub](https://github.com/MathWorks-Teaching-Resources/Machine-Learning-for-Regression) <br>   |
 
 <a id="H_61EB2540"></a>
 
@@ -104,3 +102,7 @@ Or feel free to explore our other [modular courseware content](https://www.mathw
 Looking for more? Find an issue? Have a suggestion? Please contact the [MathWorks Educator Content Development Team](mailto:%20onlineteaching@mathworks.com). If you want to contribute directly to this project, you can find information about how to do so in the [CONTRIBUTING.md](https://github.com/MathWorks-Teaching-Resources/Regression-Basics/blob/release/CONTRIBUTING.md) page on GitHub.
 
 *©* Copyright 2026 The MathWorks, Inc
+
+# Help us Improve
+
+[Share your feedback](<matlab: ShareFeedback>) to help us improve this module.

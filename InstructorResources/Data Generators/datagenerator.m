@@ -8,3 +8,5 @@ y = trueA1 * x + trueA0 + noiseLevel * randn(numPoints, 1); % Dependent variable
 
 % Save the generated dataset to a .mat file for later use
 save("RandomLinearData.mat","x","y");
+
+% <matlab:ShareFeedback Share your feedback>

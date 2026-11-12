@@ -1,3 +1,4 @@
-%  Post-run script for LinearRegression.mlx
+%  Post-run script for LinearRegression.m
 % ---- Post-run commands -----
- 
+
+% <matlab:ShareFeedback Share your feedback>
